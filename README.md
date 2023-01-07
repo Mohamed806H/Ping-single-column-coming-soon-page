@@ -11,6 +11,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Screenshot
 
+![desktop-preview](https://user-images.githubusercontent.com/91362640/211155633-1a974afe-4ceb-437a-bdc0-81185a937bd7.jpg)
+
 ## Links
 
 - Solution URL:()
