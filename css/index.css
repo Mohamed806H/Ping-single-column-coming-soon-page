@@ -20,6 +20,8 @@ body {
   overflow-x: hidden;
   width: 1440px;
   height: 800px;
+}
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;

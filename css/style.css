@@ -1,0 +1,114 @@
+nav {
+  margin-top: 86px;
+}
+header {
+  flex-direction: column;
+}
+header h1 {
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  line-height: 55px;
+  color: var(--Gray-color);
+  margin-top: 50px;
+}
+header h1 span {
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 55px;
+  color: var(--VeryDarkBlue-color);
+}
+header p {
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  line-height: 24px;
+  color: var(--VeryDarkBlue-color);
+  margin-top: 18px;
+}
+article.form form input {
+  width: 422px;
+  height: 58px;
+  border-radius: 30px;
+  border: 1px solid var(--Gray-color);
+  margin-top: 39px;
+  padding-left: 20px;
+}
+article.form form button {
+  width: 200px;
+  height: 58px;
+  border-radius: 30px;
+  background-color: var(--Blue-color);
+  text-align: center;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  margin-left: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+article.center {
+  width: 642px;
+  height: 394px;
+  margin-left: 28%;
+  margin-top: 85px;
+}
+article.center img {
+  width: 100%;
+  height: 100%;
+}
+footer {
+  flex-direction: row;
+}
+footer article {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid var(--PaleBlue-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  transform: translate(140px, 20px);
+  transition: all 0.3s ease-in-out;
+}
+footer p {
+  top: 75px;
+  right: 85px;
+  position: relative;
+  font-weight: 300;
+  color: var(--Gray-color);
+  font-size: 18px;
+}
+footer article:hover {
+  background-color: var(--Blue-color);
+  border-color: var(--Blue-color);
+}
+footer article.fac svg {
+  width: 15px;
+  height: 15px;
+  color: var(--Blue-color);
+}
+footer article.fac svg:hover {
+  color: white;
+}
+
+footer article.twet svg {
+  width: 15px;
+  height: 15px;
+  color: var(--Blue-color);
+}
+footer article.twet svg:hover {
+  color: white;
+}
+footer article.inst svg {
+  width: 15px;
+  height: 15px;
+  color: var(--Blue-color);
+}
+footer article.inst svg:hover {
+  color: white;
+}
