@@ -21,8 +21,13 @@ body {
   width: 1440px;
   height: 800px;
 }
-.flex {
+.flex-el {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 375px) {
+  .flex-el {
+    display: block;
+  }
 }

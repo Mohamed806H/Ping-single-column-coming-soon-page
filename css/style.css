@@ -60,6 +60,9 @@ article.center img {
   height: 100%;
 }
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
 }
 footer article {
@@ -111,4 +114,56 @@ footer article.inst svg {
 }
 footer article.inst svg:hover {
   color: white;
+}
+@media screen and (max-width: 375px) {
+  nav {
+    margin-left: 150px;
+  }
+  header {
+    margin-left: 50px;
+  }
+  header h1 {
+    font-size: 25px;
+  }
+  header h1 span {
+    font-size: 25px;
+  }
+  header p {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  article.form form input {
+    width: 330px;
+    height: 45px;
+    position: relative;
+    left: 25px;
+  }
+  article.form form button {
+    height: 45px;
+    width: 330px;
+    position: relative;
+    top: 65px;
+    left: -315px;
+  }
+  article.center {
+    width: 340px;
+    height: 300px;
+    margin-left: 1%;
+    margin-top: 100px;
+  }
+  footer {
+    display: flex;
+    justify-content: unset;
+    align-items: unset;
+    flex-direction: row;
+  }
+  footer article {
+    margin-left: 10px;
+    transform: translate(105px, 20px);
+  }
+  footer p {
+    top: 85px;
+    right: 95px;
+    font-size: 15px;
+  }
 }
