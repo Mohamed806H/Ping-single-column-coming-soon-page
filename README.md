@@ -15,8 +15,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ## Links
 
-- Solution URL:()
-- Live Site URL:()
+- Solution URL:(https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-5HcWlgzJpE)
+- Live Site URL:(https://mohamed806h.github.io/Ping-single-column-coming-soon-page/)
 
 ## Built with
 
