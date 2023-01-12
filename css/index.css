@@ -2,6 +2,7 @@
 :root {
   --font-base: "Libre Franklin", sans-serif;
   --Blue-color: hsl(223, 87%, 63%);
+  --SR-color: hsl(0, 93%, 68%);
   --PaleBlue-color: hsl(223, 100%, 88%);
   --LightRed-color: hsl(354, 100%, 66%);
   --Gray-color: hsl(0, 0%, 59%);

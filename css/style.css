@@ -34,7 +34,18 @@ article.form form input {
   margin-top: 39px;
   padding-left: 20px;
 }
-article.form form button {
+article.form form div.error {
+  position: absolute;
+}
+article.form form p.err {
+  position: relative;
+  top: 10px;
+  font-size: 15px;
+  left: 30px;
+  color: var(--SR-color);
+  display: none;
+}
+article.form button {
   width: 200px;
   height: 58px;
   border-radius: 30px;
@@ -45,7 +56,8 @@ article.form form button {
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-top: 30px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -115,6 +127,7 @@ footer article.inst svg {
 footer article.inst svg:hover {
   color: white;
 }
+
 @media screen and (max-width: 375px) {
   nav {
     margin-left: 150px;
@@ -138,12 +151,13 @@ footer article.inst svg:hover {
     position: relative;
     left: 25px;
   }
-  article.form form button {
+  article.form button {
     height: 45px;
     width: 330px;
     position: relative;
-    top: 65px;
-    left: -315px;
+    top: 15px;
+    left: 20px;
+    margin-left: 0px;
   }
   article.center {
     width: 340px;
@@ -165,5 +179,10 @@ footer article.inst svg:hover {
     top: 85px;
     right: 95px;
     font-size: 15px;
+  }
+  article.form form p.err {
+    position: relative;
+    top: 15px;
+    left: 40px;
   }
 }

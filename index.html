@@ -30,10 +30,20 @@
     </header>
     <section>
       <article class="form flex-el">
-        <form>
-          <input type="text" placeholder="Your email address" />
-          <button type="submit">Notify Me</button>
+        <form name="form1">
+          <input
+            type="text"
+            placeholder="Your email address"
+            class="sub"
+            id="email"
+          />
+          <div class="error">
+            <p class="err">Please provide a vaild email</p>
+          </div>
         </form>
+        <button onclick="ValidateForm(),validateEmail(document.form1.email)">
+          Notify Me
+        </button>
       </article>
       <article class="center">
         <img
